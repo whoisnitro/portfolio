@@ -1,0 +1,201 @@
+.sobremi {
+  height: 80vh;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.div-one {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #0396a6;
+}
+
+.div-two {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.user {
+  position: absolute;
+  width: 350px;
+  height: 500px;
+  background-color: #f9cb5e;
+  border-radius: 10px;
+  top: 185px;
+  left: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -33px 29px 42px 2px rgba(8, 34, 9, 0.3);
+}
+
+.user-info {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-social {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  background-color: lightblue;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.memoji-circle {
+  border-radius: 50%;
+  padding: 0;
+  background-color: white;
+}
+
+.user-info--title {
+  color: white;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+
+.user-info--subtitle {
+  margin-bottom: 0px;
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #0396a6;
+}
+
+.user-info--subtitleTwo {
+  margin: 0px;
+  color: white;
+  font-size: 16px;
+}
+
+.information {
+  position: absolute;
+  top: 190px;
+  left: 700px;
+}
+
+.saludo {
+  font-size: 90px;
+  font-weight: bolder;
+  margin: 0;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.saludo::after {
+  content: "Soy Isabel";
+  color: #F9CB5E;
+  font-size: 50px;
+  padding-left: 20px;
+  top: 50px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+.saludo:hover::after {
+  opacity: 1;
+}
+
+.sayhello {
+  font-size: 90px;
+  font-weight: bolder;
+  margin: 0;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.sayhello::after {
+  content: "I'm Isabel";
+  color: #F9CB5E;
+  font-size: 50px;
+  padding-left: 20px;
+  top: 50px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+.sayhello:hover::after {
+  opacity: 1;
+}
+
+.sobremi-info {
+  padding-top: 30px;
+  padding-right: 175px;
+}
+
+.sobremi-texto {
+  font-size: 16px;
+  /* padding: 20px; */
+}
+
+.highlights {
+  font-weight: bolder;
+  color: #ad09eb;
+}
+
+.phrase {
+  font-weight: bolder;
+  color: #eb801b;
+}
+
+.author {
+  font-weight: bolder;
+}
+
+
+@media ( max-width: 600px){
+  .sobremi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .sobremi-info{
+    width: 100%;
+  }
+
+  .user{
+    position: inherit;
+    width: 100%;
+  }
+  .information{
+    position: inherit;
+    padding-top: 40px;
+  }
+
+  .footer{
+    position: absolute;
+    bottom: -600px;
+  }
+
+  .div-one, .div-two{
+    width: 0%;
+  }
+}

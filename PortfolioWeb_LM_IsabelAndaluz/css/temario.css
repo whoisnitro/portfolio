@@ -1,0 +1,88 @@
+.temario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.temario-index{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 20px;
+    margin: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.temario-index--title{
+    font-size: 24px;
+    font-weight: bolder;
+    display: flex;
+
+}
+
+.temario-info{
+    margin: 20px;
+    
+}
+
+.index-title{
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.index-subtitle{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ul{
+    list-style: square;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: 500;
+}
+
+.sistemas-informaticos{
+    padding: 40px;
+}
+
+.lenguaje-de-marcas{
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bases-de-datos{
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.programacion{
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.entornos-de-desarrollo{
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.FOL{
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

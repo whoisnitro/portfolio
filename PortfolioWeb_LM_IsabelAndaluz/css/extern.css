@@ -1,0 +1,108 @@
+body{
+    background-color: whitesmoke;
+}
+
+.button a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-text{
+    font-family: 'Robot Crush', sans-serif ;
+    font-size: 24px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: #2E3192;
+}
+
+.button:hover{
+    letter-spacing: 10px;
+}
+
+.colaborator-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 100px;
+    gap: 10px;
+}
+.colaborator-data--text{
+    font-size: 32px;
+}
+
+.colaborator-data--name{
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    color: #2E3192;
+
+}
+
+
+.iker-css{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* flex-wrap: wrap; */
+}
+
+.iker-css--image{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.iker-css--image p {
+    shape-outside: inset(0);
+}
+
+.iker-css--info img{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.back-square{
+    background-color: #2E3192;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    position: relative;
+    top: -60px;
+    left: 250px;
+    z-index: -1;
+}
+
+@media ( max-width: 600px){
+
+    .colaborator-data{
+        flex-direction: column;
+        padding-left: 45px;
+        gap: 2px;
+        display: flex;
+        align-items: unset;
+    }
+
+    .iker-css{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+@media (max-width: 950px){
+    .iker-css{
+        flex-direction: column;
+    }
+}
